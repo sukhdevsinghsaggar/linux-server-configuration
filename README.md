@@ -1,16 +1,20 @@
 # Linux Server Configuration
 
-_Project 7 under the Full Stack Web Developer Nanodegree at Udacity_
+#### _Project 7 under the Full Stack Web Developer Nanodegree at Udacity_
 
-#### See project live at: http://ec2-54-80-95-79.compute-1.amazonaws.com
+
+#### _See project live at: http://ec2-54-80-95-79.compute-1.amazonaws.com_
+
 
 #### For help using copying and pasting in terminal, saving and other errors faced see the Troubleshoot section at the end. Also don't forget to replace the Public IP Address with your own Public IP Address.
+
 
 ### Notes for reviewer:
 
 * Public IP: 54.80.95.79
 * SSH PORT: 2200
 * Full project URL: http://ec2-54-80-95-79.compute-1.amazonaws.com
+
 
 ## Tasks given and method for completion:
 
@@ -265,7 +269,8 @@ Run the following commands:
 
   * `UFW deny 22`
   * Run the command: `nano /etc/ssh/sshd_config` and delete the `Port 22`
-  
+
+
 ## Troubleshoot:
 
 * #### Saving in Nano file editor:
@@ -286,4 +291,5 @@ Run the following commands:
 * #### If you get any error regarding any module or library used make sure that you have installed them in the virtual environment i.e after running the command `source venv/bin/activate` in grader
 * #### If you get any other error just see the last line of the apache error log available at: `/var/log/apache2/error.log`
 
-_Now you are good to go see your project live at the link provided by http://www.hcidata.info/host2ip.cgi_
+
+#### _Now you are good to go see your project live at the link provided by http://www.hcidata.info/host2ip.cgi_
