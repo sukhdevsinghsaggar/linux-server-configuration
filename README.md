@@ -75,7 +75,7 @@
     * Example full file path that could be used: `/home/ubuntu/.ssh/item-catalog`
   * Enter a password for your keygen file(you will be prompted to enter this password when you connect with key pair)
   * On your local machine read contents of the public key `cat .ssh/item-catalog.pub` and copy its content.
-  * Login into grader account using password set during user creation: `ssh -v grader@*Public-IP-Address* -p 2200`
+  * Login into grader account using password set during user creation: `ssh -v grader@54.80.95.79 -p 2200`
   * Make .ssh directory: `mkdir .ssh`
   * Make file to store key: `touch .ssh/authorized_keys`
   * Paste the key you copied in the file you just created in grader: `sudo nano .ssh/authorized_keys`
