@@ -78,7 +78,7 @@ _Project 7 under the Full Stack Web Developer Nanodegree at Udacity_
     * `chmod 644 .ssh/authorized_keys`
   * Change `PasswordAuthentication` from yes back to no in sshd_config using: `nano /etc/ssh/sshd_config`
   * Save file
-  * Login with key pair: `ssh grader@Public-IP-Address* -p 2200 -i ~/.ssh/item-catalog`
+  * Login with key pair: `ssh grader@54.80.95.79 -p 2200 -i ~/.ssh/item-catalog`
 
 ### 7. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123):
 
