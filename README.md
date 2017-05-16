@@ -4,7 +4,7 @@ _Project 7 under the Full Stack Web Developer Nanodegree at Udacity_
 
 #### See project live at: http://ec2-54-80-95-79.compute-1.amazonaws.com
 
-#### For help using copying and pasting in terminal, saving and other errors faced see the Troubleshoot section at the end.
+#### For help using copying and pasting in terminal, saving and other errors faced see the Troubleshoot section at the end. Also don't forget to replace the Public IP Address with your own Public IP Address.
 
 ### Notes for reviewer:
 
@@ -22,7 +22,7 @@ _Project 7 under the Full Stack Web Developer Nanodegree at Udacity_
   * You will get your respective public IP address
   * Download the default key-pair and copy to `/.ssh folder`
   * Open your terminal and run the command: `chmod 600 ~/.ssh/key.pem`
-  * Now Use the command `ssh -i ~/.ssh/key.pem ubuntu@34.201.114.178` to create the instance on your terminal
+  * Now Use the command `ssh -i ~/.ssh/key.pem ubuntu@54.80.95.79` to create the instance on your terminal
 
 ### 2. Create a new user named grader:
 
